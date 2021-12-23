@@ -1,0 +1,238 @@
+{
+    "pk": 3,
+    "name": "Performance",
+    "description": null,
+    "note_count": 0,
+    "module_set": [
+      {
+        "pk": 6,
+        "name": "Energy",
+        "description": null,
+        "note_count": 2,
+        "module_set": [
+          {
+            "pk": 19,
+            "name": "Base Building",
+            "description": null,
+            "note_count": 0,
+            "module_set": [
+              {
+                "pk": 21,
+                "name": "Common Areas",
+                "description": null,
+                "note_count": 0,
+                "module_set": [],
+                "question_set": []
+              },
+              {
+                "pk": 20,
+                "name": "Shared Services",
+                "description": null,
+                "note_count": 0,
+                "module_set": [
+                  {
+                    "pk": 30,
+                    "name": "District Heating & Cooling",
+                    "description": null,
+                    "note_count": 0,
+                    "module_set": [],
+                    "question_set": []
+                  },
+                  {
+                    "pk": 26,
+                    "name": "Electricity",
+                    "description": null,
+                    "note_count": 0,
+                    "module_set": [],
+                    "question_set": []
+                  },
+                  {
+                    "pk": 22,
+                    "name": "Fuels",
+                    "description": null,
+                    "note_count": 0,
+                    "module_set": [],
+                    "question_set": [
+                      {
+                        "pk": 1,
+                        "question_type": "integer",
+                        "text": "Consumption (kWh)",
+                        "child_description": null,
+                        "score_value": 0,
+                        "answer": {
+                          "id": 1,
+                          "created": "2021-11-25T13:17:19.812000",
+                          "modified": "2021-11-25T13:17:19.812000",
+                          "answer": 123,
+                          "report": 1,
+                          "asset": 2,
+                          "question": 1
+                        },
+                        "question_set": []
+                      },
+                      {
+                        "pk": 2,
+                        "question_type": "text",
+                        "text": "Floor Area Covered (m2/sq.ft.)",
+                        "child_description": null,
+                        "score_value": 0,
+                        "answer": null,
+                        "question_set": []
+                      },
+                      {
+                        "pk": 3,
+                        "question_type": "text",
+                        "text": "Maximum Floor Area (m2/sq.ft.)",
+                        "child_description": null,
+                        "score_value": 0,
+                        "answer": null,
+                        "question_set": []
+                      }
+                    ]
+                  }
+                ],
+                "question_set": []
+              }
+            ],
+            "question_set": []
+          },
+          {
+            "pk": 31,
+            "name": "Tenant Spaces",
+            "description": null,
+            "note_count": 0,
+            "module_set": [
+              {
+                "pk": 32,
+                "name": "Tenant Spaces - Landlord Controlled",
+                "description": null,
+                "note_count": 0,
+                "module_set": [],
+                "question_set": []
+              },
+              {
+                "pk": 33,
+                "name": "Tenant Spaces - Tenant Controlled",
+                "description": null,
+                "note_count": 0,
+                "module_set": [],
+                "question_set": []
+              }
+            ],
+            "question_set": []
+          }
+        ],
+        "question_set": []
+      },
+      {
+        "pk": 7,
+        "name": "GHG",
+        "description": null,
+        "note_count": 0,
+        "module_set": [],
+        "question_set": []
+      },
+      {
+        "pk": 4,
+        "name": "Risk Assesment",
+        "description": null,
+        "note_count": 0,
+        "module_set": [
+          {
+            "pk": 15,
+            "name": "RA1",
+            "description": "Risk assessments performed on standing investments portfolio",
+            "note_count": 0,
+            "module_set": [],
+            "question_set": []
+          },
+          {
+            "pk": 16,
+            "name": "RA2",
+            "description": "Technical building assessments",
+            "note_count": 0,
+            "module_set": [],
+            "question_set": []
+          }
+        ],
+        "question_set": []
+      },
+      {
+        "pk": 5,
+        "name": "Targets",
+        "description": null,
+        "note_count": 0,
+        "module_set": [
+          {
+            "pk": 17,
+            "name": "T1.1",
+            "description": "Portfolio improvement targets",
+            "note_count": 0,
+            "module_set": [],
+            "question_set": [
+              {
+                "pk": 4,
+                "question_type": "boolean",
+                "text": "Has the entity set long-term performance improvement targets?",
+                "child_description": null,
+                "score_value": 0,
+                "answer": null,
+                "question_set": []
+              }
+            ]
+          },
+          {
+            "pk": 18,
+            "name": "T1.2",
+            "description": "\"Science-based targets  Is the entity’s GHG emissions target science-based?\"",
+            "note_count": 0,
+            "module_set": [],
+            "question_set": [
+              {
+                "pk": 5,
+                "question_type": "boolean",
+                "text": "Is the entity’s GHG emissions target science-based?",
+                "child_description": null,
+                "score_value": 0,
+                "answer": null,
+                "question_set": [
+                  {
+                    "pk": 6,
+                    "question_type": "boolean",
+                    "text": "Has the target been approved by the Science-Based Targets initiative?",
+                    "child_description": null,
+                    "score_value": 0,
+                    "answer": null,
+                    "question_set": []
+                  },
+                  {
+                    "pk": 7,
+                    "question_type": "text",
+                    "text": "Select the scope of the science-based target",
+                    "child_description": null,
+                    "score_value": 0,
+                    "answer": null,
+                    "question_set": []
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "question_set": []
+      },
+      {
+        "pk": 8,
+        "name": "Water",
+        "description": null,
+        "note_count": 0,
+        "module_set": [],
+        "question_set": []
+      }
+    ],
+    "question_set": [],
+    "parent": null,
+    "progress": 25,
+    "entity": "Test Entity 1",
+    "reporting_year": 2020
+}
